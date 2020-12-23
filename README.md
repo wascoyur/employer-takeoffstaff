@@ -14,3 +14,6 @@ https://github.com/typicode/json-server
 Angular
 React
 Vue
+========
+Inspiration
+https://igorosa.com/developing-admin-panel-with-react/
