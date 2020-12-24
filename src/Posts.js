@@ -9,7 +9,8 @@ import {
   List,
   Datagrid,
   TextField,
-  ReferenceField
+  ReferenceField,
+  Filter
 } from 'react-admin'
 
 export const PostEdit = props => (
@@ -38,7 +39,7 @@ export const PostCreate = props =>{
 };
 
 export const PostList = props => (
-  <List {...props}>
+  <List filters={<PostFilter/>} {...props}>
     <Datagrid rowClick="edit">
       <TextField source="id" />
       <ReferenceField source="userId" reference="users">
@@ -50,3 +51,11 @@ export const PostList = props => (
     </Datagrid>
   </List>
 );
+
+export const PostFilter = (props) =>(
+  <Filter {...props}>
+    <TextInput label="Ввести здесь" source="q" alwaysOn/>
+    <ReferenceInput label="User" source="userId" reference="users" allowEmpty>
+      <SelectInput optionText="name"/>
+    </ReferenceInput>
+  </Filter>)
