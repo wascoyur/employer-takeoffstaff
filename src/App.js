@@ -7,11 +7,12 @@ import PostIcon from '@material-ui/icons/Book';
 import UserIcon from '@material-ui/icons/Group';
 import {PostEdit, PostCreate, PostList, PostFilter} from './Posts'
 import Dashboard from "./Dashboard";
+import authProvider from "./authProvider";
 
 const dataProvider = jsonServerProvider('http://localhost:3001');
 const App = () =>{
   return(
-    <Admin dashboard={Dashboard} dataProvider = {dataProvider}>
+    <Admin dashboard={Dashboard} dataProvider = {dataProvider} authProvider={authProvider}>
       <Resource
         icon={PostIcon}
         name="posts"
