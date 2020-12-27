@@ -17,3 +17,4 @@ Vue
 ========
 Inspiration
 https://igorosa.com/developing-admin-panel-with-react/
+json-server --watch db.json --port 3001

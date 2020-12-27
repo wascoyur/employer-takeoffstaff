@@ -1,7 +1,15 @@
+import {getUserPermissions} from './users'
+
 export default {
-  login: ({username}) =>{
+  login: ({username, password}) =>{
     localStorage.setItem('username', username);
-    return Promise.resolve()
+    const auth = getUserPermissions(username, password)
+    
+    return (auth?
+      Promise.resolve():
+        Promise.reject(console.log(`check password/username
+         ${username}, ${password}`))
+    )
   },
   logout:()=>{
     localStorage.removeItem('username');
