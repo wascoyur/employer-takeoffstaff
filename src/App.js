@@ -13,15 +13,8 @@ import {RolesView} from './rolesView'
 const dataProvider = jsonServerProvider('http://localhost:3001');
 const App = () =>{
   return(
-    <Admin dashboard={Dashboard} dataProvider = {dataProvider} authProvider={authProvider}>
-      <Resource
-        icon={PostIcon}
-        name="posts"
-        list={PostList}
-        edit={PostEdit}
-        create ={PostCreate}
-        filter = {PostFilter}
-      />
+    <Admin dataProvider = {dataProvider} authProvider={authProvider}>
+      
       <Resource
         icon={UserIcon}
         edit = {UserEdit}
@@ -29,11 +22,7 @@ const App = () =>{
         name='users'
         list = {UserList}/>
         
-      <Resource
-        name='roles'
-        options={{ label: 'Роли' }}
-        list = { RolesView }/>
-   
+        
     </Admin>
   )
 }
