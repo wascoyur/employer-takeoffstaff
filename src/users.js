@@ -56,6 +56,7 @@ export const UserEdit = props =>(
       <TextInput disabled label="id" source="id"/>
       <TextInput label="Имя полное" source="name"/>
       <TextInput label="Псевдоним" source='username'/>
+      <TextInput label="Пароль" source='password'/>
       <TextInput source='email' label="почта"/>
       <TextInput source='address.street' label='Адрес'/>
       <TextInput source='phone'/>
@@ -66,10 +67,3 @@ export const UserEdit = props =>(
   </Edit>
 )
   
-export const getUserPermissions = (user, password)=>{
-  const obj = `users?username=${user}`
-  const uPassw = obj.password;
-  console.log(`password: ${password}, uPass: ${uPassw}`)
-  return    password === uPassw? true :false
-  
-}

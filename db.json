@@ -4019,8 +4019,8 @@
     {
       "id": 2,
       "name": "Ervin Howell New",
-      "username": "Antonette",
-      "password": "ettenotna",
+      "username": "ervin",
+      "password": "test1",
       "email": "Shanna@melissa.tv",
       "address": {
         "street": "Victor Plains",
@@ -4237,12 +4237,13 @@
     {
       "id": "12",
       "name": "Юрий Васильев",
-      "username": "lud",
+      "username": "wascoyur",
       "address": {
         "street": "Березники"
       },
       "phone": "+798244620134",
-      "email": "as@er.ru"
+      "email": "as@er.ru",
+      "password": "wascoyur"
     }
   ],
   "albums": [

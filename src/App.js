@@ -13,7 +13,7 @@ import {RolesView} from './rolesView'
 const dataProvider = jsonServerProvider('http://localhost:3001');
 const App = () =>{
   return(
-    <Admin dashboard={Dashboard} dataProvider = {dataProvider} /*authProvider={authProvider}*/>
+    <Admin dashboard={Dashboard} dataProvider = {dataProvider} authProvider={authProvider}>
       <Resource
         icon={PostIcon}
         name="posts"
