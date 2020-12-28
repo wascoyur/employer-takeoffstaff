@@ -2,6 +2,7 @@
   "name": "employer-takeoffstaff",
   "version": "0.1.0",
   "private": true,
+"homepage": "https://wascoyur.github.io/employer-takeoffstaff/.",
   "dependencies": {
     "prop-types": "^15.7.2",
     "ra-data-json-server": "^3.11.1",
