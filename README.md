@@ -14,9 +14,9 @@ https://github.com/typicode/json-server
 Angular
 React
 ## Запуск json-server с данными для отображения: </br>
-Node.js должен быть уже установлен 
-дистрибутив Nodejs: https://nodejs.org/dist/latest-v12.x/node-v12.20.0-x64.msi (для win7 - v.12)
-для автоматизации установки можно просто запустить ./install.bat
+Node.js должен быть уже установлен </br>
+дистрибутив Nodejs: https://nodejs.org/dist/latest-v12.x/node-v12.20.0-x64.msi (для win7 - v.12) </br>
+для автоматизации установки можно просто запустить ./install.bat </br>
 скачайте репозитарий
 Распакуйте скачанный архив </br>
 в корневой директории запустите json server, набрав команду json-server --watch db.json --port 3001 </br>
