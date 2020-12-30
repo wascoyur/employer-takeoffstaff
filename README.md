@@ -13,13 +13,13 @@ https://github.com/typicode/json-server
 Ссылку на публичный профиль гитхаб с  выполненным тестовым заданием и ссылку на ваше резюме отправлять на почту:  "h.resources@takeoff-staff.ru" с темой письма «ФИО frontend ( NameFramefork )», где NameFramefork:
 Angular
 React
-## Запуск json-server с данными для отображения: </br>
+## Запуск json-server с данными для отображения (Windows): </br>
 Node.js должен быть уже установлен </br>
-дистрибутив Nodejs: https://nodejs.org/dist/latest-v12.x/ (для win7 - v.12) </br>
+дистрибутив Nodejs: https://nodejs.org/dist/latest-v12.x/ </br>
 скачайте репозитарий </br>
 Проверьте идентичность файла package.json в репозитории и в скачанном экземпляте, при необходимости, скопируйте содержимое файла из репозитория в локальный package.json</br>
 Распакуйте скачанный архив </br>
-в корневой директории запустите json server, набрав команду json-server --watch db.json --port 3001 </br>
+в корневой директории скачанного проекта запустите json server, набрав команду /node_modules/.bin/json-server.cmd --watch db.json --port 3001 </br>
 сервер с данными запустится на 3001 порту localhost </br>
 данные пользователей находятся в файле db.json </br>
 ## Запуск приложения </br>
