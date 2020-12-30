@@ -15,10 +15,11 @@ Angular
 React
 ## Запуск json-server с данными для отображения: </br>
 Node.js должен быть уже установлен </br>
-дистрибутив Nodejs: https://nodejs.org/dist/latest-v12.x/node-v12.20.0-x64.msi (для win7 - v.12) </br>
+дистрибутив Nodejs: https://nodejs.org/dist/latest-v12.x/ (для win7 - v.12) </br>
 скачайте репозитарий </br>
 Распакуйте скачанный архив </br>
 в корневой директории запустите json server, набрав команду json-server --watch db.json --port 3001 </br>
+сервер с данными запустится на 3001 порту localhost </br>
 данные пользователей находятся в файле db.json </br>
 ## Запуск приложения </br>
 в корневой директории запустите "npm install" </br> после установки всех зависимостей запустите приложение набрав комадну "npm run start"
